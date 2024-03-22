@@ -5,7 +5,7 @@ import { useState } from "react";
 const App = () => {
    //to maintain thses things we need array
    const [inputValue, setInput] = useState("");
-   const [tasks, setTasks] = useState(["coding"]);
+   const [tasks, setTasks] = useState([]);
  
    const ChangeInput = (eventObj) => {
      return setInput(eventObj.target.value);
